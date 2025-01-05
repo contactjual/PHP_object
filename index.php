@@ -19,4 +19,17 @@ $my_car_obj-> car_details("5G", "9ig");
 
 
 
+
+class man {
+    public $name;
+    public $age;
+    function details ($fname, $years) {
+        $this->name = $fname;
+        $this->age = $years;
+        return "$this->name's age is $this->age years";
+    }
+}
+$man_obj = new man;
+echo $man_obj -> details("Jual", 19);
+
 ?>
